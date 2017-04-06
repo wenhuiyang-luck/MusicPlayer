@@ -3,14 +3,6 @@ var musicList = [{
     "title": "I Can't Make You Love Me",
     "singer": "Thomas Junior"
 },{
-    "src": "musicList/刘明湘 - 漂洋过海来看你.mp3",
-    "title": "漂洋过海来看你",
-    "singer": "刘明湘"
-},{
-    "src": "musicList/Emily Hearn - Annie.mp3",
-    "title": "Annie",
-    "singer": "Emily Hearn"
-},{
     "src": "musicList/Joshua Hyslop - The Flood.mp3",
     "title": "The Flood",
     "singer": "Joshua Hyslop"
@@ -22,14 +14,6 @@ var musicList = [{
     "src": "musicList/Taylor Thrash - Slippin.mp3",
     "title": "Slippin",
     "singer": "Taylor Thrash"
-},{
-    "src": "musicList/张羿凡 - 你可以简单地飞舞吗.mp3",
-    "title": "你可以简单地飞舞吗",
-    "singer": "张羿凡"
-},{
-    "src": "musicList/阿细 - 春天里（Cover：汪峰）.mp3",
-    "title": "春天里（Cover：汪峰）",
-    "singer": "阿细"
 }]
 
 var backBtn = document.querySelector('#musicbox .backward'),
@@ -46,9 +30,6 @@ var music = new Audio();
 music.autoplay = true;
 var musicIndex = 0;
 
-//getMusic(function(musicList){
-//  loadMusic(musicList[musicIndex])
-//})
 loadMusic(musicList[musicIndex]);
 
 playBtn.onclick = function() {
@@ -110,14 +91,3 @@ function updateProgress() {
   seconds = seconds.length == 2 ? seconds : '0' + seconds;
   timeNode.innerText = '0' + minutes + ':' + seconds;
 }
-
-//function getMusic(callback) {
-//  var xhr = new XMLHttpRequest();
-//  xhr.open('get', 'music.json', true);
-//  xhr.send();
-//  xhr.onload = function() {
-//    if ((xhr.status >= 200 && xhr.status < 300) || xhr.status == 304) {
-//      callback(JSON.parse(xhr.responseText));
-//    }
-//  }
-//}
