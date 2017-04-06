@@ -31,7 +31,9 @@
     music.autoplay = true;
     var musicIndex = 0;
 
-    loadMusic(musicList[musicIndex]);
+    getMusic(function(musicList){
+      loadMusic(musicList[musicIndex]);
+    });
 
     playBtn.onclick = function() {
       var icon = this.querySelector('.fa');
