@@ -92,4 +92,14 @@
       seconds = seconds.length == 2 ? seconds : '0' + seconds;
       timeNode.innerText = '0' + minutes + ':' + seconds;
     }
+    function getMusic(callback) {
+      var xhr = new XMLHttpRequest();
+      xhr.open('get', 'music.json', true);
+      xhr.send();
+      xhr.onload = function() {
+        if ((xhr.status >= 200 && xhr.status < 300) || xhr.status == 304) {
+          callback(JSON.parse(xhr.responseText));
+        }
+      }
+    }
   };
