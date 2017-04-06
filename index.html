@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href='http://fonts.googleapis.com/css?family=Condiment'>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="musicbox">
+    <div class="music">
+      <!-- music control -->
+      <div class="control">
+        <span class="backward"><i class="fa fa-step-backward"></i></span>
+        <span class="play"><i class="fa fa-pause"></i></span>
+        <span class="forward"><i class="fa fa-step-forward"></i></span>
+      </div>
+
+      <!-- music info -->
+      <div class="info">
+        <div class="title">song</div>
+        <div class="singer">singer</div>
+      </div>
+    </div>
+    
+    <!-- music progress -->
+    <div class="progress">
+      <!-- progress bar -->
+      <div class="bar">
+        <div class="progress-total"></div>
+        <div class="progress-current"></div>
+      </div>
+      <!-- time -->
+      <div class="time">00:00</div>
+    </div>
+  </div>
+
+<script src="music.js"></script>
+</body>
+
+</html>
