@@ -1,17 +1,17 @@
 var musicList = [{
-    "src": "musicList/Thomas Junior - I Can't Make You Love Me.mp3",
+    "src": "https://github.com/wenhuiyang-luck/MusicPlayer/blob/master/musicList/Thomas%20Junior%20-%20I%20Can't%20Make%20You%20Love%20Me.mp3",
     "title": "I Can't Make You Love Me",
     "singer": "Thomas Junior"
 },{
-    "src": "musicList/Joshua Hyslop - The Flood.mp3",
+    "src": "https://github.com/wenhuiyang-luck/MusicPlayer/blob/master/musicList/Joshua%20Hyslop%20-%20The%20Flood.mp3",
     "title": "The Flood",
     "singer": "Joshua Hyslop"
 },{
-    "src": "musicList/Sofi de la Torre - A Little Bit.mp3",
+    "src": "https://github.com/wenhuiyang-luck/MusicPlayer/blob/master/musicList/Sofi%20de%20la%20Torre%20-%20A%20Little%20Bit.mp3",
     "title": "A Little Bit",
     "singer": "Sofi de la Torre"
 },{
-    "src": "musicList/Taylor Thrash - Slippin.mp3",
+    "src": "https://github.com/wenhuiyang-luck/MusicPlayer/blob/master/musicList/Taylor%20Thrash%20-%20Slippin.mp3",
     "title": "Slippin",
     "singer": "Taylor Thrash"
 }]
